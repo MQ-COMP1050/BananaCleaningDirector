@@ -22,7 +22,7 @@ Unit Tests
 output/outcome, and whether the test failed or passed.
 5. Coding Guidelines Define the coding guidelines your team adhered to during the project. This should include any specific standards or practices that have been be used to ensure the quality and consistency of the code.
    - SAMIR
-7. Software Quality - SAMER - TAJ
+7. Software Quality - TAJ
 • Include a table that lists all warnings that the Comp1050 Checker PMD in the GitHub Actions tab raises for your project.
 • List which issues you fixed since week 11. Give a brief rationale for fixing the issue.
 8. Project Management -SAMER
