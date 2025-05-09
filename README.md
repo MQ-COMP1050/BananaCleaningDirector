@@ -55,7 +55,45 @@ Include a graphical representation of the architecture of your program, illustra
 
 
 6. Testing User Acceptance Tests - MAXIM - TAJ
-14 comp1050
+
+   User Story 1:
+The user controls a banana-shaped character who has to clean areas of the screen by clicking on dirty parts.
+Acceptance Criteria:
+
+A banana-shaped character should be visible on screen.
+Clicking on "dirty" parts of the screen should clean them.
+A score counter should update every time a dirty part is cleaned.
+A timer should count down and trigger a success screen when time runs out.
+A restart option should appear after success.
+
+User Story 2:
+Different types of dirt (e.g., slime, dust, mud) should appear, and each requires a correct cleaning action to be removed.
+Acceptance Criteria:
+Different types of dirt (slime, dust, mud) should appear on the screen.
+The user should click the dirt to clean it, and only the correct dirt type should be cleaned.
+The score counter should only increase when the correct dirt is cleaned.
+
+User Story 3:
+A timer counts down, and the game should trigger a success screen when the user cleans enough spots before time runs out.
+Acceptance Criteria:
+A timer counts down from a set time.
+A success screen appears when the score goal is reached within the timer.
+A restart button is available on the success screen.
+
+
+User Acceptance Tests
+Test Case	User Story	Test Description	Expected Outcome	Result (Pass/Fail)
+Test 1	User Story 1	Verify banana character appears on screen	Banana-shaped character is visible and clickable:	Pass
+Test 2	User Story 1	Verify cleaning of dirty spots increases score	Clicking on dirty spots increases score counter:	Pass
+Test 3	User Story 1	Verify timer countdown	Timer counts down and triggers a "Success" screen when time ends	Pass:
+Test 4	User Story 2	Verify different dirt types are cleaned correctly	Clicking on slime, mud, and dust should clean the correct dirt:	Pass
+Test 5	User Story 2	Verify incorrect dirt type cannot be cleaned	Clicking on incorrect dirt type should not increase score:	Pass
+Test 6	User Story 3	Verify success screen appears on time out	Timer runs out and success screen appears when the goal is met:	Pass
+Test 7	User Story 3	Verify restart option on success screen	Restart button appears and works after success screen	Pass:
+
+
+
+
 – Define test cases for user stories and requirements that your team decided to test as part of user acceptance testing. Ensure that these tests cover the most important aspects of the two programs.
 – List the user stories and requirements that were the source for the user acceptance tests.
 – Include a table that gives an overview of the acceptance tests and tells whether they passed or
@@ -69,24 +107,24 @@ output/outcome, and whether the test failed or passed.
 
 
 
-7. Coding Guidelines Define the coding guidelines your team adhered to during the project. This should include any specific standards or practices that have been be used to ensure the quality and consistency of the code.
+8. Coding Guidelines Define the coding guidelines your team adhered to during the project. This should include any specific standards or practices that have been be used to ensure the quality and consistency of the code.
    - SAMIR*
   
    - 
-8. Software Quality - SAMER - TAJ
+9. Software Quality - SAMER - TAJ
 • Include a table that lists all warnings that the Comp1050 Checker PMD in the GitHub Actions tab raises for your project.
 • List which issues you fixed since week 11. Give a brief rationale for fixing the issue.
 
 
 
-9. Project Management -SAMER**
+10. Project Management -SAMER**
 List the tasks and issues on your project board. State with who was been assigned to each job. Explain who was responsible for reviewing the tasks before they were moved to the "Done" column and which methods was used for code review. Note, that reviewing a tas****k, and reviewing code, can be two separate activities.
 
 
-10. User Manual Provide a detailed user manual that describes how to interact with your animation. - MAXIM
+11. User Manual Provide a detailed user manual that describes how to interact with your animation. - MAXIM
 
     
-11.  Ethics - STEFAN**
+12.  Ethics - STEFAN**
 • List all external sources for code, design, or other artefacts th**at you have used in your program.
 • List all tools that you have used beyond Processing, Git, GitHub, and word processing tools in your
 project. For both programming and the creation of documenta**tion.
