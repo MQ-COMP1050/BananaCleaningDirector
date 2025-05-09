@@ -125,17 +125,24 @@ List the tasks and issues on your project board. State with who was been assigne
 
     
 12. Ethics - STEFAN
-External Sources
+
+External Sources:
+
 We used a few straightforward, openly accessible tools to help us comprehend fundamental programming ideas and enhance the calibre of our visual output while developing our Processing project:
+
 Our main resource for learning how to use built-in functions like ellipse(), rect(), fill(), mousePressed(), and keyPressed() was the Processing Language Reference. We frequently used this website to learn how to apply random values, recognise user input, and properly organise our sketches.
+
 Source: https://processing.org/reference
-Tools Used
+
+Tools Used:
 We used the following in addition to the necessary tools (Processing, Git, GitHub, and typical word processing applications):
+
 For creating and working together on the written report, use Google Docs. Every team member made an online contribution to this document.
 Recognitions:
+
 The following people and communities deserve special recognition and gratitude for their assistance during the project:
 
-The Forum for the Processing Community Our comprehension of the draw loop was clarified by a number of posts, and we also gained useful advice regarding frame rate optimisation.
+* The Forum for the Processing Community Our comprehension of the draw loop was clarified by a number of posts, and we also gained useful advice regarding frame rate optimisation.
 
 
 
