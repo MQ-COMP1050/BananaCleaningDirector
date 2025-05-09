@@ -124,9 +124,18 @@ List the tasks and issues on your project board. State with who was been assigne
 11. User Manual Provide a detailed user manual that describes how to interact with your animation. - MAXIM
 
     
-12.  Ethics - STEFAN**
-• List all external sources for code, design, or other artefacts th**at you have used in your program.
-• List all tools that you have used beyond Processing, Git, GitHub, and word processing tools in your
-project. For both programming and the creation of documenta**tion.
-• Include any other acknowledgement of contributors beyond your team or teaching staff, i.e. anyone
-who was not on your team or a tutor or lecturer, who helped you nevertheless.
+12. Ethics - STEFAN
+External Sources
+We used a few straightforward, openly accessible tools to help us comprehend fundamental programming ideas and enhance the calibre of our visual output while developing our Processing project:
+Our main resource for learning how to use built-in functions like ellipse(), rect(), fill(), mousePressed(), and keyPressed() was the Processing Language Reference. We frequently used this website to learn how to apply random values, recognise user input, and properly organise our sketches.
+Source: https://processing.org/reference
+Tools Used
+We used the following in addition to the necessary tools (Processing, Git, GitHub, and typical word processing applications):
+For creating and working together on the written report, use Google Docs. Every team member made an online contribution to this document.
+Recognitions:
+The following people and communities deserve special recognition and gratitude for their assistance during the project:
+
+The Forum for the Processing Community Our comprehension of the draw loop was clarified by a number of posts, and we also gained useful advice regarding frame rate optimisation.
+
+
+
