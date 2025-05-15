@@ -10,10 +10,15 @@ Our given topic was Banana, Cleaning and Director. So we decided to create a gam
 ****3. User Stories and Requirements - MAXIM
 -Maxim- The user controls a banana shaped character who has to clean areas of the screen. The way this will be done is through the user, who has to click on various "dirty" parts of the screen. This will add to the score, and if the score is reached within a set amount of time a "Success" screen will come up, and the another key will be pressed to restart the game. 
 The acceptance tests for this will be, 
-1: To have a charcter that resembles a banana, 
+
+1: To have a charcter that resembles a banana,
+
 2: For the player to be able to clikc and "clean" dirty parts of the screen,
+
 3: For a score counter to accuractly store the amount of spots cleaned,
+
 4: A working timer that ends, 
+
 5: A success screen which can restart the game:
 
 -Stefan- User Story:
@@ -21,27 +26,41 @@ The user controls a banana-shaped janitor who must rapidly remove gum stuck to d
 Acceptance Tests: 
 
 1:A banana character is visible and movable along the hallway.
+
 2:Gum blobs randomly appear and can be clicked to be removed.
+
 3:If the banana steps on gum without cleaning it first, the character is slowed for 3 seconds.
+
 4:Each gum blob cleaned adds 1 point to the score counter.
+
 5:A success screen appears when 15 gum blobs are cleaned within 60 seconds, with an option to restart the level.
 
 - Taj- User Story:
 The user controls a banana in a luxury hotel, tasked with cleaning mirrors without leaving streaks. The player clicks and drags over smudges to polish them before time runs out.
 Acceptance Tests:
 The banana character appears in front of a mirror-filled background.
+
 Smudges on mirrors can be cleaned by clicking and dragging over them.
+
 A cleaning streak appears and disappears when a smudge is fully cleaned.
+
 A meter shows progress toward a fully cleaned mirror.
+
 A timer counts down from 45 seconds, and a success screen appears when all mirrors are clean.
 
 -Samir-User Story:
 The user controls a banana who must mop up colourful drink spills in a food court. Players must react quickly, clicking on the newest spills before they spread too far.
+
 Acceptance Tests:
+
 The banana character is visible in a mall food court setting.
+
 Random spills of different colours appear over time.
+
 Clicking on a spill within 5 seconds cleans it and adds to the score.
+
 If left too long, the spill spreads and becomes uncleanable, reducing the banana’s health.
+
 The game ends when 3 spills are missed, triggering a failure screen with an option to try again.
 
 List all user stories and requirements and their acceptance criteria. Make sure that these are clear and specific.
