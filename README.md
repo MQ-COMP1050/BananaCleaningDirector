@@ -19,6 +19,7 @@ The acceptance tests for this will be,
 -Stefan- User Story:
 The user controls a banana-shaped janitor who must rapidly remove gum stuck to desks in a chaotic school hallway. The user clicks on gum blobs while avoiding getting stuck themselves.
 Acceptance Tests: 
+
 1:A banana character is visible and movable along the hallway.
 2:Gum blobs randomly appear and can be clicked to be removed.
 3:If the banana steps on gum without cleaning it first, the character is slowed for 3 seconds.
@@ -83,12 +84,19 @@ A restart button is available on the success screen.
 
 User Acceptance Tests
 Test Case	User Story	Test Description	Expected Outcome	Result (Pass/Fail)
+
 Test 1	User Story 1	Verify banana character appears on screen	Banana-shaped character is visible and clickable:	Pass
+
 Test 2	User Story 1	Verify cleaning of dirty spots increases score	Clicking on dirty spots increases score counter:	Pass
+
 Test 3	User Story 1	Verify timer countdown	Timer counts down and triggers a "Success" screen when time ends	Pass:
+
 Test 4	User Story 2	Verify different dirt types are cleaned correctly	Clicking on slime, mud, and dust should clean the correct dirt:	Pass
+
 Test 5	User Story 2	Verify incorrect dirt type cannot be cleaned	Clicking on incorrect dirt type should not increase score:	Pass
+   
 Test 6	User Story 3	Verify success screen appears on time out	Timer runs out and success screen appears when the goal is met:	Pass
+
 Test 7	User Story 3	Verify restart option on success screen	Restart button appears and works after success screen	Pass:
 
 
