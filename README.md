@@ -164,12 +164,9 @@ Source: https://processing.org/reference
 Tools Used:
 We used the following in addition to the necessary tools (Processing, Git, GitHub, and typical word processing applications):
 
-For creating and working together on the written report, use Google Docs. Every team member made an online contribution to this document.
-Recognitions:
+For creating and working together on the written report, we used GitHub itself. Every team member made an online contribution to this document.
 
-The following people and communities deserve special recognition and gratitude for their assistance during the project:
 
-* The Forum for the Processing Community Our comprehension of the draw loop was clarified by a number of posts, and we also gained useful advice regarding frame rate optimisation.
 
 
 
