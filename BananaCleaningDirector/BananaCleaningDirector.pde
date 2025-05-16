@@ -1,6 +1,7 @@
 final int TOTAL_DIRT = 20;
 final int CLEAN_SCORE = 15;
 final int GAME_TIME = 30; // seconds
+int test;
 
 PVector bananaPos;
 ArrayList<Dirt> dirtList;
