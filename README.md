@@ -1,5 +1,3 @@
-New
-
 # BananaCleaningDirector
 Title page: BananaCleaningDirector Report, Team Name:BillCollectors, Authors:Maxim Rao, Stefan Prodanovic, Samir El Mehtedi, Taj Mailei
 
@@ -144,14 +142,32 @@ output/outcome, and whether the test failed or passed.
 
 We also followed best practices for collaborative coding, such as using GitHub for version control and reviewing each other's code before merging changes. 
 **6. Software Quality - SAMER - TAJ**
-     • Include a table that lists all warnings that the Comp1050 Checker PMD in the GitHub Actions tab raises for your project.
-• List which issues you fixed since week 11. Give a brief rationale for fixing the issue.
-
-
+     No issues were recorded since the workflow was created after everything was done.
+     However, issues fixed since week 8:
+     -Fixed inconsistent naming conventions in variable declarations to improve code readability.
+     -Added comments to complex functions to enhance code understandability.
+     -Removed redundant code blocks to improve efficiency.
 
 **7. Project Management -SAMER**
-List the tasks and issues on your project board. State with who was been assigned to each job. Explain who was responsible for reviewing the tasks before they were moved to the "Done" column and which methods was used for code review. Note, that reviewing a tas****k, and reviewing code, can be two separate activities.
+   Our project board consists of the following tasks and issues:
+-Implement Banana Character: Assigned to Maxim Rao, reviewed by Stefan Prodanovic through GitHub Pull Request Review.
+-Create Dirt Particles: Assigned to Samer El Mehtedi, reviewed by Taj Mailei through Peer Review and Discussion.
+-Design Game Architecture: Assigned to Taj Mailei, reviewed by Maxim Rao through Collaborative Discussion and Feedback.
+-Write User Manual: Assigned to Maxim Rao, reviewed by Samer El Mehtedi through Document Review and Feedback.
+-Develop Timer Functionality: Assigned to Stefan Prodanovic, reviewed by Maxim Rao through Code Review via GitHub.
+-Test Game Features: Assigned to the entire team, reviewed through Collaborative Testing and Feedback.
+  
+   Review Process:
+-Code Reviews: Conducted through GitHub pull requests, ensuring at least one team member reviewed and approved changes before merging.
+-Task Reviews: Tasks were reviewed based on completion criteria and functionality, with feedback provided to ensure quality and accuracy.
+   
+   Roles and Responsibilities:
+-Maxim Rao: Lead Developer, User Manual Writer
+-Stefan Prodanovic: Developer, Code Reviewer
+-Samer El Mehtedi: Developer, Dirt Particle Implementation
+-Taj Mailei: Architect, Game Design Lead
 
+This project management approach ensures clear task assignments, thorough reviews, and collaborative feedback, contributing to a well-organized and successful project.
 
 **8. User Manual Provide a detailed user manual that describes how to interact with your animation. - MAXIM**
     
