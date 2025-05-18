@@ -8,8 +8,7 @@ Provide a description of the topic, including what the program will do and what 
 Our given topic was Banana, Cleaning and Director. So we decided to create a game that involved a Banana character, who has to clean various parts of the screen in a given amout of time. The program will be a fun and interactive game for the player. The user can expect to use his mouse to click and intercat with elements on the screen, intercating with these elemtents will add to the score, which will them cause the game to end. 
 
 
-**
-****3. User Stories and Requirements - MAXIM
+**2. User Stories and Requirements - MAXIM**
 -Maxim- The user controls a banana shaped character who has to clean areas of the screen. The way this will be done is through the user, who has to click on various "dirty" parts of the screen. This will add to the score, and if the score is reached within a set amount of time a "Success" screen will come up, and the another key will be pressed to restart the game. 
 The acceptance tests for this will be, 
 
@@ -23,7 +22,7 @@ The acceptance tests for this will be,
 
 5: A success screen which can restart the game:
 
--Stefan- User Story:
+-**Stefan- User Story**:
 The user controls a banana-shaped janitor who must rapidly remove gum stuck to desks in a chaotic school hallway. The user clicks on gum blobs while avoiding getting stuck themselves.
 Acceptance Tests: 
 
@@ -37,7 +36,7 @@ Acceptance Tests:
 
 5:A success screen appears when 15 gum blobs are cleaned within 60 seconds, with an option to restart the level.
 
-- Taj- User Story:
+**Taj- User Story**
 The user controls a banana in a luxury hotel, tasked with cleaning mirrors without leaving streaks. The player clicks and drags over smudges to polish them before time runs out.
 Acceptance Tests:
 The banana character appears in front of a mirror-filled background.
@@ -50,7 +49,7 @@ A meter shows progress toward a fully cleaned mirror.
 
 A timer counts down from 45 seconds, and a success screen appears when all mirrors are clean.
 
--Samir-User Story:
+**-Samer-User Story:**
 The user controls a banana who must mop up colourful drink spills in a food court. Players must react quickly, clicking on the newest spills before they spread too far.
 
 Acceptance Tests:
@@ -68,7 +67,7 @@ The game ends when 3 spills are missed, triggering a failure screen with an opti
 List all user stories and requirements and their acceptance criteria. Make sure that these are clear and specific.
 
 
-4. Design and Architecture - TAJ
+**3. Design and Architecture - TAJ**
 Include a graphical representation of the architecture of your program, illustrating how its primary components relate to each other. You may omit certain details to ensure clarity in the diagram. It is meant to give an overview.**
 **Explain, your diagram, and include a key/legend.
 
@@ -76,8 +75,7 @@ Include a graphical representation of the architecture of your program, illustra
 
 
 
-6. Testing User Acceptance Tests - MAXIM - TAJ
-
+**4. Testing User Acceptance Tests - MAXIM - TAJ**
    User Story 1:
 The user controls a banana-shaped character who has to clean areas of the screen by clicking on dirty parts.
 Acceptance Criteria:
@@ -136,24 +134,28 @@ output/outcome, and whether the test failed or passed.
 
 
 
-8. Coding Guidelines Define the coding guidelines your team adhered to during the project. This should include any specific standards or practices that have been be used to ensure the quality and consistency of the code.
-   - SAMIR*
-  
-   - 
-9. Software Quality - SAMER - TAJ
-• Include a table that lists all warnings that the Comp1050 Checker PMD in the GitHub Actions tab raises for your project.
+**5. Coding Guidelines Define the coding guidelines your team adhered to during the project.-Samer**
+ 
+  Our team adhered to standard Processing coding practices, including:
+-Consistent indentation and spacing
+-Clear and descriptive variable names
+-Use of comments to explain complex code sections
+-Organization of code into logical functions and classes
+
+We also followed best practices for collaborative coding, such as using GitHub for version control and reviewing each other's code before merging changes. 
+**6. Software Quality - SAMER - TAJ**
+     • Include a table that lists all warnings that the Comp1050 Checker PMD in the GitHub Actions tab raises for your project.
 • List which issues you fixed since week 11. Give a brief rationale for fixing the issue.
 
 
 
-10. Project Management -SAMER**
+**7. Project Management -SAMER**
 List the tasks and issues on your project board. State with who was been assigned to each job. Explain who was responsible for reviewing the tasks before they were moved to the "Done" column and which methods was used for code review. Note, that reviewing a tas****k, and reviewing code, can be two separate activities.
 
 
-11. User Manual Provide a detailed user manual that describes how to interact with your animation. - MAXIM
-
+**8. User Manual Provide a detailed user manual that describes how to interact with your animation. - MAXIM**
     
-12. Ethics - STEFAN
+**9. Ethics - STEFAN**
 
 External Sources:
 
