@@ -62,8 +62,6 @@ If left too long, the spill spreads and becomes uncleanable, reducing the banana
 
 The game ends when 3 spills are missed, triggering a failure screen with an option to try again.
 
-List all user stories and requirements and their acceptance criteria. Make sure that these are clear and specific.
-
 
 **3. Design and Architecture - TAJ**
 Include a graphical representation of the architecture of your program, illustrating how its primary components relate to each other. You may omit certain details to ensure clarity in the diagram. It is meant to give an overview.**
