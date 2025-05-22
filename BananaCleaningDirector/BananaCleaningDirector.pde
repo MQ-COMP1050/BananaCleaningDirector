@@ -110,7 +110,12 @@ void displayTimer() {
   int remaining = max(0, GAME_TIME - (millis() - startTime) / 1000);
   text("Time: " + remaining, width - 100, 20);
 }
-
+//This function is called at the end of the game.
+ //It displays a message to the player based on whether they won (cleaned all spots in time)
+ // or lost (ran out of time).
+ //It clears the screen, shows the appropriate message, and prompts the player to press a key to restart.
+ 
+ // This ensures clear feedback is given and prepares the player to replay.
 void showEndScreen() {
   background(50);
   fill(255);
