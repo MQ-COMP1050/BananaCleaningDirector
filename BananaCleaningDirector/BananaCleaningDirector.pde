@@ -133,7 +133,7 @@ void showEndScreen() {
 void mousePressed() {
   if (!gameOver) {  // only works when the game is still active
     for (int i = dirtList.size() - 1; i >= 0; i--) { // goes through the dirt list in reverse order
-      if (dirtList.get(i).clicked(mouseX, mouseY)) {  //checks if it is withing the range
+      if (dirtList.get(i).clicked(mouseX, mouseY)) {  //checks if it is within the range
         dirtList.remove(i); // after successfully clicking it, the dirt bit gets removed from the screen
         score++; // adds 1 to the score
         break; // stops checking after the successful hit
