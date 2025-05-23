@@ -21,21 +21,21 @@ The acceptance tests for this will be,
 5: A success screen which can restart the game:
 
 -**Stefan- User Story**:
-The user controls a banana-shaped janitor who must rapidly remove gum stuck to desks in a chaotic school hallway. The user clicks on gum blobs while avoiding getting stuck themselves.
+The user controls a banana-shaped janitor who must rapidly remove gum stuck to desks in a chaotic school hallway. A second banana, who is the principal smiles when the each gum piece is cleaning. The user clicks on gum blobs while avoiding getting stuck themselves.
 Acceptance Tests: 
 
 1:A banana character is visible and movable along the hallway.
 
 2:Gum blobs randomly appear and can be clicked to be removed.
 
-3:Each gum blob cleaned adds 1 point to the score counter.
+3:If the banana steps on gum without cleaning it first, the character is slowed for 3 seconds.
 
-4:Each time a gum blob is cleaned the second banana smiles.
+4:Each gum blob cleaned adds 1 point to the score counter.
 
 5:A success screen appears when all gum blobs are cleaned within 60 seconds, with an option to restart the level.
 
 **Taj - User Story**
-The user controls a banana in a luxury hotel, tasked with cleaning mirrors without leaving any streaks. The player clicks and drags over smudges to polish them before time runs out. If successful in cleaning all the smudges then another banana will appear saying good job and smile. 
+The user controls a banana in a luxury hotel, tasked with cleaning mirrors without leaving streaks. The player clicks and drags over smudges to polish them before time runs out.
 Acceptance Tests:
 
 The banana character is displayed in front of a background filled with mirrors.
@@ -43,7 +43,21 @@ Smudges on the mirrors can be cleaned by clicking and dragging over them.
 A visible cleaning streak appears while polishing and disappears once the smudge is fully cleaned.
 A progress meter indicates how close the player is to fully cleaning a mirror.
 A timer counts down from 45 seconds, and a success screen appears once all mirrors are cleaned.
-after succeeding the other banana will smile. 
+
+**-Samer-User Story:**
+The user controls a banana who must mop up colourful drink spills in a food court. The other bananas , are sad when the floors are dirty, when they are cleaned by the player, the other bananas smile. Players must react quickly, clicking on the newest spills before they spread too far.
+
+Acceptance Tests:
+
+The banana character is visible in a mall food court setting.
+
+Random spills of different colours appear over time.
+
+Clicking on a spill within 5 seconds cleans it and adds to the score.
+
+If left too long, the spill spreads and becomes uncleanable, reducing the banana’s health.
+
+The game ends when 3 spills are missed, triggering a failure screen with an option to try again.
 
 **-Samer-User Story:**
 The user controls a banana who must mop up colourful drink spills in a food court. Players must react quickly, clicking on the newest spills before they spread too far.
