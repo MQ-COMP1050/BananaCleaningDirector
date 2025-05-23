@@ -16,7 +16,7 @@ int smileTimer = 0;
 void setup() {
   size(800, 600);
   bananaPos = new PVector(width/2, height/2);
-  secondBananaPos = new PVector(100, height - 150);
+  secondBananaPos = new PVector(50, height-500);
   startGame();
 }
 
@@ -131,7 +131,7 @@ void displayTimer() {
   int remaining = max(0, GAME_TIME - (millis() - startTime) / 1000);
   text("Time: " + remaining, width - 100, 20);
 }
-// ending sucess screen, is you beat the game, "Success" is shown. If the timer runs out "times up" shows. 
+
 void showEndScreen() {
   background(50);
   fill(255);
