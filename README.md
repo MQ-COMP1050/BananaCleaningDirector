@@ -1,4 +1,4 @@
-# BananaCleaningDirector
+# Smiling BananaCleaningDirector
 Title page: BananaCleaningDirector Report, Team Name:BillCollectors, Authors:Maxim Rao, Stefan Prodanovic, Samir El Mehtedi, Taj Mailei
 
 **1. Introduction - MAXIM
@@ -7,7 +7,7 @@ Our given topic was Banana, Cleaning and Director. So we decided to create a gam
 
 
 **2. User Stories and Requirements - MAXIM**
--Maxim- The user controls a banana shaped character who has to clean areas of the screen. The way this will be done is through the user, who has to click on various "dirty" parts of the screen. This will add to the score, and if the score is reached within a set amount of time a "Success" screen will come up, and the another key will be pressed to restart the game. 
+-Maxim- The user controls a banana shaped character who has to clean areas of the screen. The way this will be done is through the user, who has to click on various "dirty" parts of the screen. After each spot is cleaned, a second banana in the corner will smile to indicate that a succcess has occured. This will add to the score, and if the score is reached within a set amount of time a "Success" screen will come up, and the another key will be pressed to restart the game. 
 The acceptance tests for this will be, 
 
 1: To have a charcter that resembles a banana,
