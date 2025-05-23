@@ -131,7 +131,7 @@ void displayTimer() {
   int remaining = max(0, GAME_TIME - (millis() - startTime) / 1000);
   text("Time: " + remaining, width - 100, 20);
 }
-
+//This shows the Succes, and Try Again screens at the end of the game.
 void showEndScreen() {
   background(50);
   fill(255);
@@ -177,7 +177,7 @@ void startGame() {
   gameWon = false;
   secondBananaSmile = false;
 }
-
+//Created the dirty spots on the screen
 class Dirt {
   float x, y, r;
   float dx, dy;
