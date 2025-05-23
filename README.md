@@ -28,9 +28,9 @@ Acceptance Tests:
 
 2:Gum blobs randomly appear and can be clicked to be removed.
 
-3:If the banana steps on gum without cleaning it first, the character is slowed for 3 seconds.
+3:Each gum blob cleaned adds 1 point to the score counter.
 
-4:Each gum blob cleaned adds 1 point to the score counter.
+4:Each time a gum blob is cleaned the second banana smiles.
 
 5:A success screen appears when all gum blobs are cleaned within 60 seconds, with an option to restart the level.
 
