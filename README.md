@@ -139,12 +139,12 @@ output/outcome, and whether the test failed or passed.
 -Organization of code into logical functions and classes
 
 We also followed best practices for collaborative coding, such as using GitHub for version control and reviewing each other's code before merging changes. 
-**6. Software Quality - SAMER - TAJ**
-     No issues were recorded since the workflow was created after everything was done.
-     However, issues fixed since week 8:
-     -Fixed inconsistent naming conventions in variable declarations to improve code readability.
-     -Added comments to complex functions to enhance code understandability.
-     -Removed redundant code blocks to improve efficiency.
+**6. Software Quality - TAJ**
+    No issues were logged since the workflow was set up after everything was already wrapped up.
+That said, a few improvements were made from week 8 onwards:
+- Cleaned up variable names to keep things consistent and easier to read.
+- Added comments to trickier bits of code to make it clearer for anyone jumping in later.
+- Got rid of some unnecessary code to help things run a bit more smoothly.
 
 **7. Project Management -SAMER**
    Our project board consists of the following tasks and issues:
