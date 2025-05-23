@@ -20,7 +20,7 @@ The acceptance tests for this will be,
 5: A success screen which can restart the game:
 
 -**Stefan- User Story**:
-The user controls a banana-shaped janitor who must rapidly remove gum stuck to desks in a chaotic school hallway. A second banana, who is the principal smiles when the each gum piece is cleaning. The user clicks on gum blobs while avoiding getting stuck themselves.
+The user controls a banana-shaped janitor who must rapidly remove gum stuck to desks in a chaotic school hallway. A second banana, who is the principal smiles when the each gum piece is cleaned. The user clicks on gum blobs while avoiding getting stuck themselves.
 Acceptance Tests: 
 
 1:A banana character is visible and movable along the hallway.
@@ -44,19 +44,17 @@ A progress meter indicates how close the player is to fully cleaning a mirror.
 A timer counts down from 45 seconds, and a success screen appears once all mirrors are cleaned.
 
 **-Samer-User Story:**
-The user controls a banana who must mop up colourful drink spills in a food court. The other bananas , are sad when the floors are dirty, when they are cleaned by the player, the other bananas smile. Players must react quickly, clicking on the newest spills before they spread too far.
+The user controls a banana who must mop up colourful drink spills in a food court. The other bananas , are sad when the floors are dirty, when they are cleaned by the player, the other bananas smile. Players must react quickly, clicking on the spills before time runs out.
 
 Acceptance Tests:
 
 The banana character is visible in a mall food court setting.
 
-Random spills of different colours appear over time.
+Random spills appear.
 
-Clicking on a spill within 5 seconds cleans it and adds to the score.
+Clicking on a spill cleans it and adds to the score.
 
-If left too long, the spill spreads and becomes uncleanable, reducing the banana’s health.
-
-The game ends when 3 spills are missed, triggering a failure screen with an option to try again.
+The game ends when spills are left uncleaned, and a retry button reappears.
 
 
 **3. Design and Architecture - TAJ**
