@@ -131,7 +131,7 @@ void displayTimer() {
   int remaining = max(0, GAME_TIME - (millis() - startTime) / 1000);
   text("Time: " + remaining, width - 100, 20);
 }
-
+// ending sucess screen, is you beat the game, "Success" is shown. If the timer runs out "times up" shows. 
 void showEndScreen() {
   background(50);
   fill(255);
