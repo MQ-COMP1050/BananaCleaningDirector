@@ -164,7 +164,7 @@ That said, a few improvements were made from week 8 onwards:
 
 This project management approach ensures clear task assignments, thorough reviews, and collaborative feedback, contributing to a well-organized and successful project.
 
-**8. User Manual Provide a detailed user manual that describes how to interact with your animation. - MAXIM**
+**8. User Manual Provide a detailed user manual that describes how to interact with your animation. - STEFAN**
     
 **9. Ethics - STEFAN**
 
