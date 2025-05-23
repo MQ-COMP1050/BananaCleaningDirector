@@ -32,7 +32,7 @@ Acceptance Tests:
 
 4:Each gum blob cleaned adds 1 point to the score counter.
 
-5:A success screen appears when 15 gum blobs are cleaned within 60 seconds, with an option to restart the level.
+5:A success screen appears when all gum blobs are cleaned within 60 seconds, with an option to restart the level.
 
 **Taj- User Story**
 The user controls a banana in a luxury hotel, tasked with cleaning mirrors without leaving streaks. The player clicks and drags over smudges to polish them before time runs out.
