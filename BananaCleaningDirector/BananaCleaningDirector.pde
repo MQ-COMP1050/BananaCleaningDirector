@@ -1,17 +1,17 @@
-final int TOTAL_DIRT = 20; // Total number of dirt spots to be generated
+final int TOTAL_DIRT = 20; // Dirt spots generated
 final int CLEAN_SCORE = 15; // Score required to win the game
-final int GAME_TIME = 30; //  Total game time in seconds
+final int GAME_TIME = 30; //  game time in seconds
 
-PVector bananaPos; // Position of the main banana character (player)
-PVector secondBananaPos; // Position of the second banana character (observer/helper)
-ArrayList<Dirt> dirtList; // List to store all dirt objects
-int score = 0; // Player's current score (cleaned dirt count)
-int startTime; // Time when the game started
-boolean gameOver = false; // Flag to indicate if the game has ended
-boolean gameWon = false; // Flag to indicate if the player has won
+PVector bananaPos; // Player
+PVector secondBananaPos; // observer/helper
+ArrayList<Dirt> dirtList; // list to store all dirt objects
+int score = 0;
+int startTime;
+boolean gameOver = false;
+boolean gameWon = false;
 
-boolean secondBananaSmile = false; // Determines if the second banana should be smiling
-int smileTimer = 0; // Timer to control duration of second banana’s smile
+boolean secondBananaSmile = false; // determines if the second banana should be smiling
+int smileTimer = 0; // timer to control duration of second banana’s smile
 
 void setup() {
   size(800, 600);
