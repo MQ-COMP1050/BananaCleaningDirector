@@ -1,6 +1,6 @@
-final int TOTAL_DIRT = 20; // Dirt spots generated
-final int CLEAN_SCORE = 15; // Score required to win the game
-final int GAME_TIME = 30; //  game time in seconds
+int TOTAL_DIRT = 20; // Dirt spots generated
+int CLEAN_SCORE = 15; // Score required to win the game
+int GAME_TIME = 30; //  game time in seconds
 
 PVector bananaPos; // Player
 PVector secondBananaPos; // observer/helper
@@ -29,7 +29,7 @@ void draw() {
     updateAndDrawDirt();
     displayScore();
     displayTimer();
-    
+
     // Draw second banana
     boolean showSmile = secondBananaSmile && millis() - smileTimer < 800;
     drawBanana(secondBananaPos, false, showSmile);
@@ -61,7 +61,8 @@ void drawBanana(PVector pos, boolean faceMouse, boolean smile) {
   noStroke();
   fill(255, 230, 50);
   beginShape();
-  curveVertex(-20, -50); curveVertex(-20, -50);
+  curveVertex(-20, -50);
+  curveVertex(-20, -50);
   curveVertex(-10, -55);
   curveVertex(0, -60);
   curveVertex(10, -55);
@@ -74,7 +75,8 @@ void drawBanana(PVector pos, boolean faceMouse, boolean smile) {
   curveVertex(-15, 30);
   curveVertex(-18, 5);
   curveVertex(-18, -20);
-  curveVertex(-20, -50); curveVertex(-20, -50);
+  curveVertex(-20, -50);
+  curveVertex(-20, -50);
   endShape(CLOSE);
 
   // Stem
@@ -85,7 +87,8 @@ void drawBanana(PVector pos, boolean faceMouse, boolean smile) {
   // Highlight
   fill(255, 255, 120, 90);
   beginShape();
-  curveVertex(-5, -40); curveVertex(-5, -40);
+  curveVertex(-5, -40);
+  curveVertex(-5, -40);
   curveVertex(-2, -35);
   curveVertex(2, -20);
   curveVertex(0, 10);
