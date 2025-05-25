@@ -3,14 +3,14 @@ int CLEAN_SCORE = 15; // Score required to win the game
 int GAME_TIME = 30; //  game time in seconds
 
 PVector bananaPos; // Player
-PVector secondBananaPos; // observer/helper
-ArrayList<Dirt> dirtList; // list to store all dirt objects
+PVector secondBananaPos; // observer that smiles after dirt is cliked
+ArrayList<Dirt> dirtList; // list to store all dirt objects after they are clicked
 int score = 0;
 int startTime;
 boolean gameOver = false;
 boolean gameWon = false;
 
-boolean secondBananaSmile = false; // determines if the second banana should be smiling
+boolean secondBananaSmile = false; // determines if the second banana should be smiling or not
 int smileTimer = 0; // timer to control duration of second banana’s smile
 
 void setup() {
