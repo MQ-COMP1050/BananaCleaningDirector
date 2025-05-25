@@ -30,7 +30,7 @@ void draw() {
     displayScore();
     displayTimer();
 
-    // Draw second banana
+    // Creates the second banana
     boolean showSmile = secondBananaSmile && millis() - smileTimer < 800;
     drawBanana(secondBananaPos, false, showSmile);
 
@@ -57,7 +57,7 @@ void drawBanana(PVector pos, boolean faceMouse, boolean smile) {
   float angle = faceMouse ? atan2(mouseY - pos.y, mouseX - pos.x) + PI/2 : 0;
   rotate(angle);
 
-  // Body
+  // Body of the banana
   noStroke();
   fill(255, 230, 50);
   beginShape();
@@ -79,7 +79,7 @@ void drawBanana(PVector pos, boolean faceMouse, boolean smile) {
   curveVertex(-20, -50);
   endShape(CLOSE);
 
-  // Stem
+  // top of the banana
   fill(120, 80, 40);
   ellipse(0, -60, 8, 8);
   ellipse(0, 50, 6, 6);
@@ -97,7 +97,7 @@ void drawBanana(PVector pos, boolean faceMouse, boolean smile) {
   curveVertex(-6, 35);
   endShape();
 
-  // Eyes
+  // banana eyes
   fill(255);
   ellipse(-10, -20, 12, 12);
   ellipse(10, -20, 12, 12);
