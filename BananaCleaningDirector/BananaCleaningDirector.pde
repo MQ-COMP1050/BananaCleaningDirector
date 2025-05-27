@@ -47,10 +47,10 @@ void draw() {
     showEndScreen(); // Show final message
   }
 }
-
+// Make banana follow the mouse smoothly
 void updateBanana() {
   PVector mouse = new PVector(mouseX, mouseY);
-  bananaPos.lerp(mouse, 0.1);
+  bananaPos.lerp(mouse, 0.1); // Smooth interpolation toward the mouse
 }
 
 void drawBanana(PVector pos, boolean faceMouse, boolean smile) {
