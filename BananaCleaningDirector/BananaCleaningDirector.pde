@@ -14,34 +14,37 @@ boolean secondBananaSmile = false; // determines if the second banana should be 
 int smileTimer = 0; // timer to control duration of second banana’s smile
 
 void setup() {
-  size(800, 600);
-  bananaPos = new PVector(width/2, height/2);
-  secondBananaPos = new PVector(50, height-500);
-  startGame();
+ size(800, 600); // Set the window size
+  bananaPos = new PVector(width/2, height/2); // Start player in center
+  secondBananaPos = new PVector(50, height-500); // Place second banana near top-left
+  startGame(); // Initialize game state
 }
 
 void draw() {
-  background(200, 220, 255);
+  background(200, 220, 255); // Light blue background
 
   if (!gameOver) {
-    updateBanana();
-    drawBanana(bananaPos, true, false);
-    updateAndDrawDirt();
-    displayScore();
-    displayTimer();
+    updateBanana(); // Move banana toward mouse
+    drawBanana(bananaPos, true, false); // Draw main banana facing mouse
 
-    // Creates the second banana
+    updateAndDrawDirt(); // Update and draw all dirt spots
+    displayScore(); // Show current score
+    displayTimer(); // Show remaining time
+
+    // Show second banana (observer), smile if recently clicked dirt
     boolean showSmile = secondBananaSmile && millis() - smileTimer < 800;
     drawBanana(secondBananaPos, false, showSmile);
 
+    // Check for game end
     if (millis() - startTime > GAME_TIME * 1000) {
       gameOver = true;
-      gameWon = score >= CLEAN_SCORE;
+      gameWon = score >= CLEAN_SCORE; // Check win condition
     }
   } else {
+    // Game over - show final banana expressions and end screen
     drawBanana(bananaPos, true, gameWon);
     drawBanana(secondBananaPos, false, gameWon);
-    showEndScreen();
+    showEndScreen(); // Show final message
   }
 }
 
