@@ -34,14 +34,19 @@ Acceptance Tests:
 5:A success screen appears when all gum blobs are cleaned within 60 seconds, with an option to restart the level.
 
 **Taj - User Story**
-The user controls a banana in a luxury hotel, tasked with cleaning mirrors without leaving streaks. The player clicks and drags over smudges to polish them before time runs out.
+The user controls a banana in a luxury hotel, tasked with cleaning mirrors with a smiling spirit without leaving streaks. The player clicks and drags over smudges to polish them before time runs out.
+
 Acceptance Tests:
 
-The banana character is displayed in front of a background filled with mirrors.
-Smudges on the mirrors can be cleaned by clicking and dragging over them.
-A visible cleaning streak appears while polishing and disappears once the smudge is fully cleaned.
-A progress meter indicates how close the player is to fully cleaning a mirror.
-A timer counts down from 45 seconds, and a success screen appears once all mirrors are cleaned.
+1: The banana character is displayed in front of a background filled with mirrors.
+
+2: Smudges on the mirrors can be cleaned by clicking and dragging over them.
+
+3: A visible cleaning streak appears while polishing and disappears once the smudge is fully cleaned.
+
+4: A progress meter indicates how close the player is to fully cleaning a mirror.
+
+5: A timer counts down from 45 seconds, and a success screen appears once all mirrors are cleaned.
 
 **-Samer-User Story:**
 The user controls a banana who must mop up colourful drink spills in a food court. The other bananas , are sad when the floors are dirty, when they are cleaned by the player, the other bananas smile. Players must react quickly, clicking on the spills before time runs out.
