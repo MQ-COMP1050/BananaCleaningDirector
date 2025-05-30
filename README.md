@@ -1,4 +1,4 @@
-# Smiling BananaCleaningDirector
+# Smiling Banana Cleaning Director
 Title page: BananaCleaningDirector Report, Team Name:BillCollectors, Authors:Maxim Rao, Stefan Prodanovic, Samir El Mehtedi, Taj Mailei
 
 **1. Introduction - MAXIM**
