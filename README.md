@@ -2,11 +2,12 @@
 Title page: BananaCleaningDirector Report, Team Name:BillCollectors, Authors:Maxim Rao, Stefan Prodanovic, Samir El Mehtedi, Taj Mailei
 
 **1. Introduction - MAXIM**
-Our given topic was Banana, Cleaning and Director. So we decided to create a game that involved a Banana character, who has to clean various parts of the screen in a given amout of time. The program will be a fun and interactive game for the player. The user can expect to use his mouse to click and intercat with elements on the screen, intercating with these elemtents will add to the score, which will them cause the game to end. 
+Our given topic was Banana, Cleaning and Director. So we decided to create a game that involved a Banana character, who has to clean various parts of the screen in a given amout of time, in the corner there is a second banan character, who smiles when a dirt spot is cleaned. The program will be a fun and interactive game for the player. The user can expect to use his mouse to click and intercat with elements on the screen, intercating with these elemtents will add to the score, which will them cause the game to end. 
 
 
 **2. User Stories and Requirements**
 -Maxim- The user controls a banana shaped character who has to clean areas of the screen. The way this will be done is through the user, who has to click on various "dirty" parts of the screen. After each spot is cleaned, a second banana in the corner will smile to indicate that a succcess has occured. This will add to the score, and if the score is reached within a set amount of time a "Success" screen will come up, and the another key will be pressed to restart the game. 
+
 The acceptance tests for this will be, 
 
 1: To have a charcter that resembles a banana,
