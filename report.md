@@ -66,6 +66,7 @@ The game ends when spills are left uncleaned, and a retry button reappears.
 **3. Design and Architecture - TAJ**
 Include a graphical representation of the architecture of your program, illustrating how its primary components relate to each other. You may omit certain details to ensure clarity in the diagram. It is meant to give an overview.**
 **Explain, your diagram, and include a key/legend.
+![IMG_4153](https://github.com/user-attachments/assets/91b71110-b8c5-42c6-b8f3-4f6fde0425e6)
 
 
 
@@ -168,6 +169,10 @@ That said, a few improvements were made from week 8 onwards:
 This project management approach ensures clear task assignments, thorough reviews, and collaborative feedback, contributing to a well-organized and successful project.
 
 **8. User Manual Provide a detailed user manual that describes how to interact with your animation. - STEFAN**
+- Movement: Use the mouse to move the banana and clikc on dirty spots found on the screen!
+- How to win: Win the game by cleaning every single dirty spot found on screen.
+- How to loose: The game is lost if the timer runs out before you clean all of the spots.
+- Banana Director in the corner will each time you pickup the dirt, to make sure that you are completeing the game successfully. 
     
 **9. Ethics - STEFAN**
 
