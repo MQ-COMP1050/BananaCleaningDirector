@@ -173,9 +173,9 @@ This project management approach ensures clear task assignments, thorough review
 
 External Sources:
 
-We used a few straightforward, openly accessible tools to help us comprehend fundamental programming ideas and enhance the calibre of our visual output while developing our Processing project:
+We used a few straightforward, openly accessible tools to help us understand what function to use and how they can help our game funtion. 
 
-Our main resource for learning how to use built-in functions like ellipse(), rect(), fill(), mousePressed(), and keyPressed() was the Processing Language Reference. We frequently used this website to learn how to apply random values, recognise user input, and properly organise our sketches.
+Our main resource for learning how to use built-in functions like ellipse(), rect(), fill(), mousePressed(), and keyPressed() was the Processing Language Reference. We frequently used this website to learn how to apply random values and recognise user input.
 
 Source: https://processing.org/reference
 
